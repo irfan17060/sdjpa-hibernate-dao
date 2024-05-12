@@ -185,7 +185,7 @@ public class DaoIntegrationTest {
 
 
     @Test
-    void testiFndAuthorByNameUsingNativeSql(){
+    void testToFindAuthorByNameUsingNativeSql(){
        Author author= authorDao.findAuthorByNameUsingNativeSql("Craig","Walls");
        assertThat(author).isNotNull();
     }
